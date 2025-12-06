@@ -257,7 +257,7 @@ jobs:
           cd kernel_workspace/kernel_platform
           # 下载并执行设置脚本 #
           echo "[SukiSU] 开始注入（susfs-main）"
-          curl -LSs "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/susfs-main/kernel/setup.sh" | bash -s susfs-main
+          curl -LSs "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/main/kernel/setup.sh" | bash -s susfs-main
 
       - name: 配置内核信息
         run: |
